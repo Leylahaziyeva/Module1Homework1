@@ -142,5 +142,57 @@
 //    Console.WriteLine("Yanlış parol");
 //}
 
+////9.Üç tərəfin uzunluğuna əsasən,həmin ölçülərlə üçbucağın mövcud olub-olmadığını yoxlayın.(Üçbucaq şərti:Hər iki tərəfin cəmi üçüncü tərəfdən böyük olmalıdır.) 
+
+//Console.Write("Birinci terefi daxil edin: ");
+//double a = Convert.ToDouble(Console.ReadLine());
+
+//Console.Write("Ikinci terefi daxil edin: ");
+//double b = Convert.ToDouble(Console.ReadLine());
+
+//Console.Write("Üçüncü terefi daxil edin: ");
+//double c = Convert.ToDouble(Console.ReadLine());
+
+//if (a + b > c && a + c > b && b + c > a)
+//{
+//    Console.WriteLine("Bu tereflerle üçbucaq mövcuddur.");
+//}
+//else
+//{
+//    Console.WriteLine("Bu tereflerle üçbucaq mövcud deyil.");
+//}
+
+////10.Verilmiş 4 rəqəmli bir tam ədədin rəqəmlərinin cəmini hesablayın.
+
+//Console.Write("4 reqemli tam eded daxil edin: ");
+//int number = int.Parse(Console.ReadLine());
+
+////example:5642
+//int sum = 0;
+//if (number >= 1000 && number <= 9999)
+//{
+//    int n1 = number % 10;  // 2
+//    number /= 10;          // 564
+//    int n2 = number % 10;  // 4
+//    number /= 10;          // 56
+//    int n3 = number % 10;  // 6
+//    number /= 10;          // 5
+//    int n4 = number % 10;  // 5
+
+//    Console.Write($"{n4}+"); 
+//    sum = sum + n4;
+//    Console.Write($"{n3}+");  
+//    sum = sum + n3;
+//    Console.Write($"{n2}+"); 
+//    sum = sum + n2;
+//    Console.Write($"{n1}=");  
+//    sum = sum + n1;
+
+//    Console.WriteLine(sum);
+//}
+//else
+//{
+//    Console.WriteLine("Daxil etdiyiniz eded 4 reqemli deyil.");
+//}
 
 
