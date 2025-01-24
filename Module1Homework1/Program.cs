@@ -10,7 +10,7 @@
 ////2.Verilmiş ədədin cüt və ya tək olduğunu təyin edən proqram yazın.
 
 //Console.Write("Bir eded daxil edin: ");
-//int a = int.Parse(Console.ReadLine()); // Daxil edilən ədədin tam ədəd olduğunu qəbul edirik
+//int a = int.Parse(Console.ReadLine()); 
 //if (a % 2 == 0)
 //{
 //    Console.WriteLine("Eded cütdür!");
